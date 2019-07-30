@@ -1,0 +1,18 @@
+FE will pass request to sequencer. -> done
+Sequencer will multicast the request json to a multicast IP -> done
+Store the request id in acknowledge pending list -> done
+Store request details in request history Map -> done
+Initialize the request entry in response buffer map with syncObject json to interrupt FE -> done
+Receive acknowledgement from replica -> done
+Receive response from replica -> done
+Store response into response buffer -> done
+Trigger FE on receiving all three responses or on time out -> done
+FE will compare all three results -> done
+Notify to RM for any corrupted result or unresponsive replica using inhouse developed reliable UDP which provides only acknowledge and retry on top of basic UDP : pending
+
+
+
+
+FE server to received response and ack
+Multicast server to send requests
+How will FE know about completion of all requests?

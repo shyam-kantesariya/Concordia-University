@@ -1,0 +1,30 @@
+Clean Everything:
+
+Comment out RestartServer
+##MTL
+1. get count
+2. Add student
+3. Add Teacher
+4. Get count
+5. Transfer Student to LVL
+6. Get Count
+7. Logout
+##LVL
+1.Get Count
+2. Edit Transferred Record
+
+
+Clean Everything:
+
+Uncomment RestartServer
+##MTL
+1. get count
+2. add student
+3. add teacher
+3. get count
+4. get count
+5. get count
+====== Replica crashed because of wrong result, restarted it
+6. get count 
+
+Question Answer

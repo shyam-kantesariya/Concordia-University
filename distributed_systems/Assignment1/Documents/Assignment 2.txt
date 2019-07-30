@@ -1,0 +1,40 @@
+Use Java RMI
+Record ID: Student (SR00001) and Teacher (TR00001) are main entities
+Users: <City Code>0001
+Three centre severs (MTL, LVL,DDO)
+Teacher:
+• First name
+• Last name
+• Address
+• Phone
+• Specialization
+• Location (mtl, lvl, ddo)
+
+Student:
+• First name
+• Last name
+• CoursesRegistered (can be multiple)
+• Status (active/inactive)
+• Status Date (Status change date)
+
+Records -> List -> Hash map
+Hash key = First letter of last name
+
+Server level logs in text file
+Each manager also has separate log on local machine where he/she had logged in
+
+Central Repository to register a server
+ManagerClient program (Main user interface) should get info from there.
+
+
+#========================== LINKS =================================#
+
+Serialize an Object into byte buffer: https://stackoverflow.com/questions/2836646/java-serializable-object-to-byte-array
+					http://www.javapractices.com/topic/TopicAction.do?Id=57
+Random access a binary file: http://docs.oracle.com/javase/6/docs/api/java/io/RandomAccessFile.html
+Coding standards Java: https://google.github.io/styleguide/javaguide.html
+Java Set implementation: http://tutorials.jenkov.com/java-collections/set.html
+Get record count on hashmap: https://stackoverflow.com/questions/5496944/java-count-the-total-number-of-items-in-a-hashmapstring-arrayliststring
+Get all values of enum: https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html
+Get cwd: https://stackoverflow.com/questions/4871051/getting-the-current-working-directory-in-java
+Java INT datatype range: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html

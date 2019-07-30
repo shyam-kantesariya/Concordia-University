@@ -1,0 +1,3 @@
+ssh s_kante@apini.encs.concordia.ca
+
+/local/bin/ssh_setup_apini_keys

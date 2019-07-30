@@ -1,0 +1,24 @@
+How if we can have Date type for StatusDate in Student.java model class?
+Can we follow this coding standard: https://google.github.io/styleguide/javaguide.html
+Make RecordBase attributes private and implement getter setter which are public synchronized.
+courseRegistered as different collection and not String array, any Set implementation. HashSet for example
+
+
+Think of a way to shut down all servers gracefully.
+
+findRecord method in CenterServerimp class
+
+
+Objective
+Over all Design structure
+Code design and structure
+UDP Server design
+Concurrency and Synchronization
+Logging for troubleshooting
+Journal for Reliability and Replication
+Test scenarios covered
+Learnings
+References
+
+Out-of-scope 
+Assumption
